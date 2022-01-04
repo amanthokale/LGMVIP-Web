@@ -1,0 +1,566 @@
+*{padding: 0; margin:0; box-sizing: border-box;scroll-behavior: smooth;}
+
+body{
+    
+	scroll-behavior: smooth;
+		overflow-x: hidden;
+        font-family: 'Mulish', sans-serif;    
+}
+#nine{
+    margin-top: 0;
+  margin-bottom: 0.5rem
+}
+
+
+#sale{
+    height: 30px;
+    background-color: #934ced;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 10px;
+    color: rgb(255, 255, 255);
+}
+
+#navbar{
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 30px;
+    color: #b287e8;;
+}
+
+#logoimg{
+    height: 130px;
+    width: 130px;
+    
+}
+#add{
+    margin-left: 30px;
+}
+.cent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5px 5px;
+    text-align: center;
+    
+}
+
+.bold{
+    font-weight: bold;
+}
+
+#search{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 70px;
+
+
+}
+#stext{
+    padding: 10px 10px;
+    width: 300px;
+    margin: 0px 2px;
+}
+#sbutton{
+    padding: 10px 10px;
+    margin: 0px 2px;
+    border-radius: 0px;
+    background-color: #b287e8;
+    color: rgb(255, 255, 255);
+    border-color: #b287e8;
+    cursor: pointer;
+    border-radius: 3px;
+    
+}
+#mycart{
+    background-color: #b287e8;
+    height: 43px;
+    width: 200px;
+    border:2px solid #b287e8;
+    margin-left: 50px;
+text-align: center;
+justify-content: center;
+align-items: center;
+flex-direction: row;
+display: flex;
+border-radius: 2px;
+
+}
+#mycart a{
+    text-decoration: none;
+    /* color: rgb(255, 255, 255); */
+    font-weight: bold;
+    color: black;
+    font-size: 12px;
+}
+#signin{
+    /* display: flex; */
+    align-items: flex-end;
+    justify-content: end;
+    text-align: right;
+    position: absolute;
+    top: 30px;
+    right: 10px;
+    
+}
+#signin a{
+    text-decoration: none;
+    color: #b287e8;
+    
+    font-size: 10px;
+}
+#menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+#menu li{
+    margin: 0px 20px;
+    padding: 0px 0px;
+}
+
+
+
+#genuine{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
+}
+#genuinelist{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+}
+#genuinelist li{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    margin: 10px 10px;
+    padding: 10px 10px;
+}
+
+#juice{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#juice img{
+    width: 1000px;
+    
+}
+
+#bio p{
+    text-align: center;
+    padding: 3rem 3rem;
+}
+#bio h2{
+    margin: 3rem 3rem;
+}
+
+/* PHOTOSSSSSSSSSSSSSSSSSSSSSSSSSSs */
+
+
+.portfolio-menu{
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    
+}
+.portfolio-menu ul li{
+    color: grey;
+    list-style: none;
+    display: inline-block;
+    margin:20px 0px;
+    font-size: 20px;
+    /* font-weight: bold; */
+    /* font-family: sans-serif; */
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: 0.5s ease;
+    text-align: center;
+    /* color: black; */
+
+}
+.portfolio-menu ul li:hover{
+    /* background:  #b287e8; */
+    color: black;
+    /* border-radius: 8px; */
+    /* border: 2px solid black; */
+}
+li.active{
+    /* background:#b287e8; */
+    color: black;
+    /* border-radius: 8px; */
+}
+#activa{
+    color: black;
+}
+.portfolio-item{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+    width: 100%;
+}
+.portfolio-item .item{
+    margin: 35px 10px;
+    padding: 10px 10px;
+    width:290px;
+    height:290px;
+    /* float: left; */
+    /* margin-bottom:20px; */
+    /* margin-right: 20px; */
+}
+.portfolio-item .item img{
+width: 100%;
+height: 100%;
+border-radius: 0px;
+}
+.portfolio-item .item img:hover{
+    opacity: 0.2;
+}
+.portfolio-item .item img,p,h6:hover{
+    cursor: pointer;
+}
+
+#shop{
+    background-color: rgb(255, 255, 255);
+    height: 1300px;
+}
+
+.portfolio-menu h1{
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.members{
+
+	/* font-family: sans-serif; */
+	width: 100%;
+	padding:20px 100px;
+}
+.member-info{
+	text-align: center;
+}
+.member-info h1 {
+	font-size: 2.5em;
+}
+
+.member-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+	text-align: center;
+	padding-top: 50px;
+	width: 50%;
+	margin:auto;
+	}
+
+
+.member-card h2{
+	margin:20px 0px;
+}
+.sm{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    text-align: center;
+}
+
+
+
+
+#aman{
+    height: 300px;
+    width: 300px;
+}
+.social{
+    margin: 10px 10px;
+    padding: 10px 10px;
+    vertical-align: middle;
+}
+#insta{
+    width:70px;
+}
+#fb{
+    width:60px;
+    height:65px;
+}
+#tweeter{
+    width:100px;
+}
+#whatsapp{
+    width:120px;
+    margin-left: -15px;
+}
+
+
+
+#saledown{
+    height: 30px;
+    background-color: #934ced;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 10px;
+    color: rgb(255, 255, 255);
+    border-top: 1px solid black;
+}
+
+#saledown h3 a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    
+}
+
+.footer{
+    background-color: black;
+    color: white;
+    margin: 0px 0px;
+    padding: 0px 0px;
+    height: 250px;
+    display: flex;
+    flex-flow: row;
+}
+#foot{
+    display: flex;
+    list-style: none;
+    
+}
+#foot li,p{
+    margin: 7px 6px;
+    padding: 10px 10px;
+}
+
+
+#foot li a{
+    color: #934ced;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+#store a img{
+    height: 60px;
+    width: 140px;
+    margin: 10px 10px;
+    padding: 10px 10px;
+}
+#store{
+    display: flex;
+}
+
+#copy{
+    margin-left: 100px;
+}
+
+#refresh{
+    display: flex;
+    justify-content: right;
+    align-items: flex-end;
+    margin-right: 125px;
+}
+
+/* #navigator{
+  background-color: black;
+} */
+#navya{
+    display: flex;
+    height: 50px;
+    color: grey;
+    background-color: #f8f9fa;
+    list-style: none;
+justify-content: center;
+align-items: center;
+text-align: center;
+
+}
+
+#navya li{
+    margin: 0px 25px;
+    padding: 0px 0px;
+    cursor: pointer;
+}
+
+#navya li:hover{
+    color:rgba(0, 0, 0, 0.7);
+}
+
+
+
+
+
+
+
+@media only screen and (max-width:1340px){
+    #navbar{
+        flex-direction: column;
+        height: 100%;
+    }
+    #navbar div{
+        margin: 20px 40px;
+        padding: 10px 10px;
+    }
+    #navya{
+        flex-direction: column;
+        height: 100%;
+    }
+    #navya li{
+        margin: 10px 10px;
+        padding: 10px 10px;
+    }
+ 
+    #bio #juice img{
+        width: 600px;
+    }
+    #bio p{
+        padding: 3rem 1rem;
+    }
+    #shop{
+        height: 1700px;
+    }
+  
+    .portfolio-menu ul li{
+        margin: 10px 0px;
+        padding: 5px 5px;
+    }
+    .portfolio-item .item{
+        margin: 2px 5px;
+        padding: 3px 2px;
+        width:170px;
+        height:170px;
+        font-size: 10px;
+        margin-bottom:70px;
+        
+    }
+    .member-card{
+        text-align: center;
+        padding-top: 50px;
+    }
+    .members{
+        height: 100%;
+        padding: 20px 50px;
+    }
+    #aman{
+        height: 170px;
+        width: 170px;
+    }
+    .footer{
+        height: 100%;
+        flex-direction: column;
+        flex-flow: column;
+        font-size: 9px;
+    }
+    #copy{
+        margin-left: 0px;
+        align-items: center;
+        text-align: center;
+    }
+    #store a img{
+        height: 30px;
+        width: 70px;
+        margin: 5px 5px;
+        padding: 5px 5px;
+    }
+    #foot li,p{
+        margin: 2px 1px;
+        padding: 5px 8px;
+    }
+    .footer div h4{
+        margin-top: 10px;
+    }
+    .member-card{ 
+     padding-top: 30px;
+    }
+    .social{
+        margin: 6px 6px;
+        padding: 6px 6px;
+    }
+    #insta{
+        width:35px;
+    }
+    #fb{
+        width:30px;
+        height:32px;
+    }
+    #tweeter{
+        width:50px;
+    }
+    #whatsapp{
+        width:60px;
+        margin-left: -15px;
+    }
+    .member-info h2{
+        font-size: 15px;
+    }
+    .member-card h2{
+        margin: 0px 0px;
+        margin-top: 10px;
+        font-size: 15px;
+    }
+    #saledown{
+        height: 16px;
+        font-size: 6px;
+    }
+    #signin{
+        top: 10px;
+        right: 78px; 
+        margin: 0px 0px;
+        padding: 0px 0px;
+        
+    }
+    #search #stext{
+        width: 220px;
+    }
+    #mycart{
+        width: 150px;
+
+    }
+    
+
+
+
+  
+    
+
+
+}
+
