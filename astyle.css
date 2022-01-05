@@ -181,13 +181,13 @@ border-radius: 2px;
 /* PHOTOSSSSSSSSSSSSSSSSSSSSSSSSSSs */
 
 
-.portfolio-menu{
+.shop-menu{
     margin-top: 20px;
     text-align: center;
     margin-bottom: 20px;
     
 }
-.portfolio-menu ul li{
+.shop-menu ul li{
     color: grey;
     list-style: none;
     display: inline-block;
@@ -200,9 +200,9 @@ border-radius: 2px;
     transition: 0.5s ease;
     text-align: center;
     /* color: black; */
-
+   
 }
-.portfolio-menu ul li:hover{
+.shop-menu ul li:hover{
     /* background:  #b287e8; */
     color: black;
     /* border-radius: 8px; */
@@ -216,15 +216,27 @@ li.active{
 #activa{
     color: black;
 }
-.portfolio-item{
+.shop-item{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    height: 800px;
+    height: 100%;
     width: 100%;
+    
 }
-.portfolio-item .item{
+.mb{
+    margin-bottom: 120px;
+}
+#topweardiv{
+    margin-top: 50px;
+}
+
+
+
+
+
+.shop-item .item{
     margin: 35px 10px;
     padding: 10px 10px;
     width:290px;
@@ -233,24 +245,24 @@ li.active{
     /* margin-bottom:20px; */
     /* margin-right: 20px; */
 }
-.portfolio-item .item img{
+.shop-item .item img{
 width: 100%;
 height: 100%;
 border-radius: 0px;
 }
-.portfolio-item .item img:hover{
+.shop-item .item img:hover{
     opacity: 0.2;
 }
-.portfolio-item .item img,p,h6:hover{
+.shop-item .item img,p,h6:hover{
     cursor: pointer;
 }
 
 #shop{
     background-color: rgb(255, 255, 255);
-    height: 1300px;
+    height: 100%;
 }
 
-.portfolio-menu h1{
+.shop-menu h1{
     font-weight: bold;
 }
 
@@ -269,7 +281,7 @@ border-radius: 0px;
 
 
 .members{
-
+    margin-top: 80px;
 	/* font-family: sans-serif; */
 	width: 100%;
 	padding:20px 100px;
@@ -392,15 +404,15 @@ border-radius: 0px;
     margin-left: 100px;
 }
 
-#refresh{
+/* #refresh{
     display: flex;
     justify-content: right;
     align-items: flex-end;
     margin-right: 125px;
-}
+} */
 
-/* #navigator{
-  background-color: black;
+/* .navigator{
+  height: 400;
 } */
 #navya{
     display: flex;
@@ -424,6 +436,37 @@ text-align: center;
     color:rgba(0, 0, 0, 0.7);
 }
 
+.burger{
+    margin-top: 15px;
+    display: none;
+    
+    /* flex-direction: column; */
+    /* align-items: flex-end; */
+    /* position: absolute; */
+    cursor: pointer;
+    /* right: 5%; */
+}
+.line{
+    width: 30px;
+    background-color: black;
+    height: 4px;
+    margin: 3px 3px;
+}
+.block{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.block h3{
+    display: inline-block;
+    width: 200px;
+    height: 30px;
+    background-color: #1e1e1e;
+    color: white;
+}
+
+
 
 
 
@@ -437,11 +480,16 @@ text-align: center;
     }
     #navbar div{
         margin: 20px 40px;
-        padding: 10px 10px;
+        padding: 10px 0px;
+    }
+    .navigator{
+        height: 300px;
+        transition: all 0.4s ease-in-out;
     }
     #navya{
         flex-direction: column;
         height: 100%;
+       
     }
     #navya li{
         margin: 10px 10px;
@@ -455,14 +503,15 @@ text-align: center;
         padding: 3rem 1rem;
     }
     #shop{
-        height: 1700px;
+        height: 100%;
     }
-  
-    .portfolio-menu ul li{
+   
+    .shop-menu ul li{
         margin: 10px 0px;
         padding: 5px 5px;
+        font-size: 16px;
     }
-    .portfolio-item .item{
+    .shop-item .item{
         margin: 2px 5px;
         padding: 3px 2px;
         width:170px;
@@ -475,9 +524,11 @@ text-align: center;
         text-align: center;
         padding-top: 50px;
     }
+   
     .members{
         height: 100%;
         padding: 20px 50px;
+        margin-top: 10px;
     }
     #aman{
         height: 170px;
@@ -541,8 +592,8 @@ text-align: center;
         font-size: 6px;
     }
     #signin{
-        top: 10px;
-        right: 78px; 
+        top: 20px;          /*10px*/
+        right: 8px;          /*78px*/  
         margin: 0px 0px;
         padding: 0px 0px;
         
@@ -554,7 +605,78 @@ text-align: center;
         width: 150px;
 
     }
-    
+    .burger{
+        display: flex;
+        flex-direction: column;
+        cursor: pointer;
+        align-items: center;
+    justify-content: center;
+    text-align: center;
+    }
+    .line{
+        margin: 2px 2px;
+    }
+    .h-nav{
+        height: 10px;
+    }
+    .v-class{
+        opacity: 0;
+    }
+    #logoimg{
+       margin: 0px 0px;
+       padding: 0px 0px;
+    }
+    #add{
+        margin-top: 0px;
+    }
+
+    .block h3 {
+        margin: 35px 0px;
+    }
+    .mb {
+        margin-bottom: 0px;
+    }
+
+
+    /* SMALL LOGO AND SEARCH */
+    .hide{
+       font-size: 11px;
+    }
+    #logoimg{
+        height: 90px;
+        width: 90px;
+    }
+    #navbar div {
+        margin: 7px 0px;
+padding: 5px 0px;
+    }
+    #search{
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    #search #stext{
+        padding: 10px 10px;
+        width: 150px;
+        height:35px ;
+        margin: 0px 2px;
+    }
+    #search #sbutton{
+        width: 80px;
+        height:35px ;
+        padding: 10px 10px;
+        margin: 0px 2px; 
+    }
+    #mycart{
+        height: 35px;
+        width: 130px;
+        margin:10px 0px;
+    }
+    #mycart a{
+        font-size: 12px;
+    }
+
+    /**/
 
 
 
