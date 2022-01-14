@@ -105,13 +105,11 @@ border-radius: 2px;
 }
 #mycart a{
     text-decoration: none;
-    /* color: rgb(255, 255, 255); */
     font-weight: bold;
     color: black;
     font-size: 12px;
 }
 #signin{
-    /* display: flex; */
     align-items: flex-end;
     justify-content: end;
     text-align: right;
@@ -144,7 +142,6 @@ border-radius: 2px;
     display: flex;
     justify-content: center;
     align-items: center;
-    /* flex-direction: column; */
 }
 #genuinelist{
     display: flex;
@@ -178,7 +175,6 @@ border-radius: 2px;
     margin: 3rem 3rem;
 }
 
-/* PHOTOSSSSSSSSSSSSSSSSSSSSSSSSSSs */
 
 
 .shop-menu{
@@ -193,25 +189,25 @@ border-radius: 2px;
     display: inline-block;
     margin:20px 0px;
     font-size: 20px;
-    /* font-weight: bold; */
-    /* font-family: sans-serif; */
     padding: 10px 20px;
     cursor: pointer;
     transition: 0.5s ease;
     text-align: center;
-    /* color: black; */
    
 }
-.shop-menu ul li:hover{
-    /* background:  #b287e8; */
+.shop-menu ul li a{
+    text-decoration: none;
+    color: grey;
+}
+.shop-menu ul li a:hover{
     color: black;
-    /* border-radius: 8px; */
-    /* border: 2px solid black; */
+}
+.shop-menu ul li:hover{
+    color: black;
 }
 li.active{
-    /* background:#b287e8; */
     color: black;
-    /* border-radius: 8px; */
+
 }
 #activa{
     color: black;
@@ -241,9 +237,6 @@ li.active{
     padding: 10px 10px;
     width:290px;
     height:290px;
-    /* float: left; */
-    /* margin-bottom:20px; */
-    /* margin-right: 20px; */
 }
 .shop-item .item img{
 width: 100%;
@@ -282,7 +275,6 @@ border-radius: 0px;
 
 .members{
     margin-top: 80px;
-	/* font-family: sans-serif; */
 	width: 100%;
 	padding:20px 100px;
 }
@@ -404,16 +396,6 @@ border-radius: 0px;
     margin-left: 100px;
 }
 
-/* #refresh{
-    display: flex;
-    justify-content: right;
-    align-items: flex-end;
-    margin-right: 125px;
-} */
-
-/* .navigator{
-  height: 400;
-} */
 #navya{
     display: flex;
     height: 50px;
@@ -439,12 +421,7 @@ text-align: center;
 .burger{
     margin-top: 15px;
     display: none;
-    
-    /* flex-direction: column; */
-    /* align-items: flex-end; */
-    /* position: absolute; */
     cursor: pointer;
-    /* right: 5%; */
 }
 .line{
     width: 30px;
@@ -466,7 +443,9 @@ text-align: center;
     color: white;
 }
 
-
+.hi{
+    color: black;
+}
 
 
 
@@ -484,7 +463,7 @@ text-align: center;
     }
     .navigator{
         height: 300px;
-        transition: all 0.4s ease-in-out;
+        transition: all 0.2s ease-in-out;
     }
     #navya{
         flex-direction: column;
@@ -592,8 +571,8 @@ text-align: center;
         font-size: 6px;
     }
     #signin{
-        top: 20px;          /*10px*/
-        right: 8px;          /*78px*/  
+        top: 20px;          
+        right: 8px;            
         margin: 0px 0px;
         padding: 0px 0px;
         
@@ -637,8 +616,6 @@ text-align: center;
         margin-bottom: 0px;
     }
 
-
-    /* SMALL LOGO AND SEARCH */
     .hide{
        font-size: 11px;
     }
@@ -676,7 +653,6 @@ padding: 5px 0px;
         font-size: 12px;
     }
 
-    /**/
 
 
 

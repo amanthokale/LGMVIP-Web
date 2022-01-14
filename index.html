@@ -81,14 +81,14 @@
       
     </div>
 			<ul>
-				<li> All</li>
-				<li id="activa"> Topwear</li>
-				<li>Bottomwear</li>
-				<li>Accessories</li>
+				<li><a href="#all">All</a></li>
+				<li><a href="#topweardiv">Topwear</a></li>
+				<li><a href="#bottom">Bottomwear</a></li>
+				<li><a href="#Acce">Accessories</a></li>
 			</ul>
      
       
-      <div class="shop-item mb">
+      <div class="shop-item mb" id="all">
            
         <div class="item" >
           <img id="aa" src="img/t5.webp" width="100" height="100">
@@ -351,10 +351,10 @@
   navi=document.querySelector('.navigator')
 
   burger.addEventListener('click',()=>{
-      console.log("hey");
       navya.classList.toggle('v-class');
       navi.classList.toggle('h-nav');
   })
+
 </script>
 
 </body>
